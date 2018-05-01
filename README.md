@@ -1,11 +1,12 @@
-# docker-pulsesecure-vpn
+# docker-pulsesecure-cert
 
-Dockerized pulse secure vpn connection using:
+Dockerized Pulse Secure VPN connection using:
 
 > http://www.infradead.org/openconnect/
 
 This is only a simple implementation to simplify the connection in linux 
-without the oficial pulse secure client (that never works). This image is 
+without the official Pulse Secure client (that never works). Only works 
+with certifciate authentication, no username or password. This image is 
 forked from
 jamgocoop/docker-pulsesecure-vpn, look there for username/password 
 authentication.
