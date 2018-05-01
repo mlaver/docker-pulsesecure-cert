@@ -2,7 +2,7 @@ if [[ "$1" == "start" ]]; then
 echo "Starting Docker container"
 docker run --rm  --name \
         pulsevpn \
-        -e "VPN_URL=https://remote.tt.se/dana-na/auth/url_4/welcome.cgi" \
+        -e "VPN_URL=https://example.com/dana-na/auth/url_4/welcome.cgi" \
         -e "OPENCONNECT_OPTIONS=-v --servercert pin-sha256:<yourstuffhere> \
         -v /full/path/certs/clientcert.pem:/root/cert.pem:ro \
         -v /full/path/certs/private.key:/root/private.key:ro \
