@@ -30,6 +30,7 @@ authentication.
 Edit and copy vpn.sh to /usr/bin/vpndocker or something to use it like so:
 
 vpndocker start
+
 vpndocker stop
 
 
