@@ -1,5 +1,5 @@
 FROM alpine:3.6
-MAINTAINER Jamgo Coop <info@jamgo.coop>
+MAINTAINER Mathias Lavér <mathias@laver.se>
 
 RUN mkdir -p /etc/vpnc
 COPY patch.diff /tmp
