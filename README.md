@@ -33,6 +33,8 @@ vpndocker start
 
 vpndocker stop
 
+Be sure to edit static routes, your dns servers, 
+
 
 # Bad server cert:
 If the connect server has and insecure or self signed certificate you must follow a few more steps. The openconnect option --no-cert-check has been removed from the current version of openconnect, so we must obtain the server's cert fingerprint and pass it to openconnect.
