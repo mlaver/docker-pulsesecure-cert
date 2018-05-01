@@ -33,7 +33,7 @@ vpndocker start
 
 vpndocker stop
 
-Be sure to edit static routes, your dns servers, 
+Be sure to edit static routes, your dns servers and pulse secure URL.
 
 
 # Bad server cert:
