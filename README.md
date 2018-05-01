@@ -15,15 +15,15 @@ authentication.
 
 # Certificate authentication, no username or password:
 
-	docker run --name \
-		pulsevpn \
-		-e "VPN_URL=<vpn_connect_url>" \
-		-e "OPENCONNECT_OPTIONS=<openconnect_extra_options>" \
+    docker run --name \
+    pulsevpn \
+    -e "VPN_URL=<vpn_connect_url>" \
+    -e "OPENCONNECT_OPTIONS=<openconnect_extra_options>" \
     -v /full/path/cert.pem:/root/cert.pem:ro \
     -v /full/path/private.key:/root/private.key:ro \
     -v /full/path/ca.pem:/root/ca.pem:ro \
-		--privileged=true \
-		-d mathiaslaver/docker-pulsesecure-vpn
+    --privileged=true \
+    -d mathiaslaver/docker-pulsesecure-vpn
 
 # Use vpn.sh
 
